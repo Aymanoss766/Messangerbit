@@ -1,1 +1,19 @@
-
+{
+  "name": "my-messenger-bot",
+  "version": "1.0.0",
+  "description": "A simple Messenger bot connected to OpenAI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
